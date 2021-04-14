@@ -1,0 +1,25 @@
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+#star_rating label,
+#star_rating {
+  padding: 0.5rem;
+  display: flex;
+  cursor: pointer;
+}
+
+#star_rating input:focus + label {
+  outline: 3px auto blue !important;
+}
+
+body {
+  background: goldenrod;
+}
